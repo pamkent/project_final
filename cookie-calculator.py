@@ -27,16 +27,16 @@ expectedtspGroundClove = (userServeAmt / baseCookies) * tspGroundClove
 expectedtspGroundCinnamon = (userServeAmt / baseCookies) * tspGroundCinnamon
 expectedtspGroundGinger = (userServeAmt / baseCookies) * tspGroundGinger
 #these are the printed results from above 
-print("For", userServeAmt, "you will need ",  round(expectedCupsFlour, 1), "cups of flour")
-print(round(expectedCupsBrownSugar, 1), "cups of brown sugar")
-print(round(expectedCupsVegetableOil, 1), "cups of vegetable oil")
-print(round(expectedCupsMolasses, 1), "cups of molasses")
-print(round(expectedEgg, 1), "egg(s)") 
-print(round(expectedtspBakingSoda, 1), "tsp baking soda")
-print(round(expectedtspSalt, 1), "tsp salt") 
-print(round(expectedtspGroundClove, 1),"tsp ground clove")
-print(round(expectedtspGroundCinnamon, 1), "tsp ground cinnamon")
-print(round(expectedtspGroundGinger, 1), "tsp ground ginger")
+print("For", userServeAmt, "you will need ",  expectedCupsFlour, "cups of flour")
+print(expectedCupsBrownSugar, "cups of brown sugar")
+print(expectedCupsVegetableOil, "cups of vegetable oil")
+print(expectedCupsMolasses, "cups of molasses")
+print(expectedEgg, "egg(s)") 
+print(expectedtspBakingSoda, "tsp baking soda")
+print(expectedtspSalt, "tsp salt") 
+print(expectedtspGroundClove,"tsp ground clove")
+print(expectedtspGroundCinnamon, "tsp ground cinnamon")
+print(expectedtspGroundGinger, "tsp ground ginger")
 #prints out the directions
 with open('recipe.txt', 'r') as f:
    print(open('recipe.txt').read())
