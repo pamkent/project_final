@@ -13,7 +13,7 @@ tspSalt = .25
 tspGroundClove = .5
 tspGroundCinnamon = 1
 tspGroundGinger = 1
-#prompt the user for amount of cookies and store float to userServeAmt   
+#prompt the user for amount of cookies and store the integer to userServeAmt   
 userServeAmt = int(input('\nHow many cookies would you like to make?\n')) 
 #this is all the math done to adjust the servings    
 expectedCupsFlour = (userServeAmt / baseCookies) * cupsFlour
