@@ -2,7 +2,7 @@
 #user is greeted by the recipe for Ginger Snaps 
 print("We're making Ginger Snaps!")  
 #this is the base recipe with serving size 
-baseCookies = 36 
+baseCookies = 20
 cupsFlour = 2 
 cupsBrownSugar = 1
 cupsVegetableOil = .75
